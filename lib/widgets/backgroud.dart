@@ -38,11 +38,16 @@ class _BackgroundState extends State<Background> {
              ),
              child: Column(
                children: <Widget>[
-                 Text('UNITED STATES DOLLAR',
-                   style: TextStyle(
-                       color: Color(0xFFFFBD59),
-                       fontSize: 50,
-                       fontFamily: 'LeagueGothic'),
+                 Container(
+                   margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                   child: FittedBox(
+                     child: Text('UNITED STATES DOLLAR',
+                       style: TextStyle(
+                           color: Color(0xFFFFBD59),
+                           fontSize:1000,
+                           fontFamily: 'LeagueGothic'),
+                     ),
+                   ),
                  ),
                  Row(
                    mainAxisAlignment: MainAxisAlignment.center,
@@ -99,11 +104,16 @@ class _BackgroundState extends State<Background> {
              width: double.infinity,
              child: Column(
                children: <Widget>[
-                 Text('GREAT BRITIAN POUND',
-                   style: TextStyle(
-                       color: Colors.white,
-                       fontSize: 50,
-                       fontFamily: 'LeagueGothic',
+                 Container(
+                   margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                   child: FittedBox(
+                     child: Text('GREAT BRITIAN POUND',
+                       style: TextStyle(
+                           color: Colors.white,
+                           fontSize: 1000,
+                           fontFamily: 'LeagueGothic',
+                       ),
+                     ),
                    ),
                  ),
                  SizedBox(
