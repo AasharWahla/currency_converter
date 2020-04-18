@@ -1,6 +1,14 @@
-# currencyconverter
+# Currency Converter
 
-A new Flutter application.
+This is an onging project.
+
+## Status
+Right now it is only able to convert USD to GBP with a fixed convrsion rate.
+
+## Future
+In it end form will be able to convert any currency into any currency.
+
+![Screenshot of the only screen in the App](/screenshot/screen1.png)
 
 ## Getting Started
 
